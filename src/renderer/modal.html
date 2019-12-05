@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="../../assets/semantic.min.css" />
+    <style>
+      body {
+        background-color: rgba(255, 255, 255, 0.1);
+        padding: 10px;
+        font: caption;
+      }
+    </style>
+  </head>
+  <body>
+    <form id="scriptForm" class="ui inverted form">
+      <div class="field">
+        <label>Title:</label>
+        <input type="text" name="title" id="title" />
+      </div>
+      <div class="field">
+        <label>Script:</label>
+        <textarea name="script" id="script"></textarea>
+      </div>
+      <input type="hidden" name="id" id="id" />
+      <div class="ui right floated small buttons">
+        <button class="ui button" id="close">Cancel</button>
+        <button class="ui button" type="submit">Save</button>
+      </div>
+    </button>
+
+    <script src="./modal.js"></script>
+  </body>
+</html>
